@@ -32,7 +32,15 @@ def main():
         else:
             print("Please enter Y or N")
     else:
-        print("Please enter Red, Yellow, or Green")
+        print("Please enter Red, Yellow, or Green. Try again!")
+
+
+    light_color = input("What is the traffic light's color (Red, Yellow, or Green): ")
+    
+    # Changing `light_color` to lower-case
+    light_color = light_color.lower()
+
+
 
 if __name__ == "__main__":
     main()
