@@ -39,7 +39,7 @@
 ## Test
 - `test_policy(t1 = 80, t2 = 100, f = 90)` => `100`
 - `test_policy(t1 = 80, t2 = 90, f = 95)` => `95`
-- `test_policy(t1 = 90, t2 = 80, f = 70)` => `100`
+- `test_policy(t1 = 90, t2 = 80, f = 70)` => `90`
 - `test_policy(t2 = 80, f = 100)` => `100`
 - `test_policy(t2 = 80, f = 60)` => `80`
 
