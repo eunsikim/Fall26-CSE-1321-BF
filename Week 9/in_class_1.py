@@ -6,3 +6,10 @@ amount of minutes. The program should then
 wait for that time period and print out "WAKE UP!" 
 at the end of said time.
 """
+
+import time
+
+input = int(input(f"Enter how many minutes: "))
+rtime = input * 60
+time.sleep(rtime)
+print("Wake up!")
