@@ -8,7 +8,7 @@ def main():
         "Quiz 2": 98.0,
         0: "Zero",
         3.14:[10, "ten", 10.0],
-        [10]:"This should not work", # Keys must be immutable, this will break
+        # [10]:"This should not work", # Keys must be immutable, this will break
         (10):"Testing"
     }
 
